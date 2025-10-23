@@ -14,7 +14,7 @@
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <sonar.projectKey>jenkins-demo-app</sonar.projectKey>
     <sonar.projectName>Jenkins Demo App</sonar.projectName>
-    <sonar.host.url>http://34.223.82.112:9000</sonar.host.url>
+    <sonar.host.url>http://44.234.111.171:9000</sonar.host.url>
     <sonar.login>squ_1f284f03a4a76e3f60904d77de7bda543cc5460b</sonar.login>
   </properties>
 
@@ -22,7 +22,7 @@
     <snapshotRepository>
       <id>nexus</id>
       <name>Nexus Snapshots</name>
-      <url>http://44.250.214.137:8081/repository/maven-snapshots/</url>
+      <url>http://44.246.254.11:8081/repository/maven-public/</url>
     </snapshotRepository>
   </distributionManagement>
 
