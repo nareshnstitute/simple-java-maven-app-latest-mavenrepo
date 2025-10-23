@@ -14,8 +14,8 @@
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <sonar.projectKey>jenkins-demo-app</sonar.projectKey>
     <sonar.projectName>Jenkins Demo App</sonar.projectName>
-    <sonar.host.url>http://44.222.149.160:9000</sonar.host.url>
-    <sonar.login>squ_8bdf26443dea5eba423b03cb703174020694e0c1</sonar.login>
+    <sonar.host.url>http://34.223.82.112:9000</sonar.host.url>
+    <sonar.login>squ_1f284f03a4a76e3f60904d77de7bda543cc5460b</sonar.login>
   </properties>
 
   <distributionManagement>
