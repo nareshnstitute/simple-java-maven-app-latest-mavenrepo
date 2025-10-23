@@ -18,6 +18,14 @@
     <sonar.login>squ_8bdf26443dea5eba423b03cb703174020694e0c1</sonar.login>
   </properties>
 
+  <distributionManagement>
+    <snapshotRepository>
+      <id>nexus</id>
+      <name>Nexus Snapshots</name>
+      <url>http://44.250.214.137:8081/repository/maven-snapshots/</url>
+    </snapshotRepository>
+  </distributionManagement>
+
   <dependencies>
     <dependency>
       <groupId>org.junit.jupiter</groupId>
