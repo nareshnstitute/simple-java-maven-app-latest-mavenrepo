@@ -13,10 +13,6 @@
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <maven.compiler.release>17</maven.compiler.release>
-    <sonar.projectKey>jenkins-demo-app</sonar.projectKey>
-    <sonar.projectName>Jenkins Demo App</sonar.projectName>
-    <sonar.host.url>http://44.234.111.171:9000</sonar.host.url>
-    <sonar.login>squ_1f284f03a4a76e3f60904d77de7bda543cc5460b</sonar.login>
   </properties>
 
   <distributionManagement>
@@ -75,28 +71,4 @@
             <configuration>
               <rules>
                 <requireMavenVersion>
-                  <version>[3.9.11,)</version>
-                </requireMavenVersion>
-                <requireJavaVersion>
-                  <version>[17,)</version>
-                </requireJavaVersion>
-              </rules>
-            </configuration>
-          </execution>
-        </executions>
-      </plugin>
-
-      <plugin>
-        <groupId>org.sonarsource.scanner.maven</groupId>
-        <artifactId>sonar-maven-plugin</artifactId>
-        <version>3.9.1.2184</version>
-      </plugin>
-
-      <plugin>
-        <groupId>org.apache.maven.plugins</groupId>
-        <artifactId>maven-clean-plugin</artifactId>
-        <version>3.3.1</version>
-      </plugin>
-    </plugins>
-  </build>
-</project>
+                  <version>
