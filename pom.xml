@@ -85,19 +85,6 @@
         </executions>
       </plugin>
 
-      <!-- SonarQube Plugin -->
-      <plugin>
-        <groupId>org.sonarsource.scanner.maven</groupId>
-        <artifactId>sonar-maven-plugin</artifactId>
-        <version>3.9.1.2184</version>
-        <configuration>
-          <sonarHostUrl>http://44.234.111.171:9000</sonarHostUrl>
-          <sonarLogin>squ_1f284f03a4a76e3f60904d77de7bda543cc5460b</sonarLogin>
-          <sonarProjectKey>jenkins-demo-app</sonarProjectKey>
-          <sonarProjectName>Jenkins Demo App</sonarProjectName>
-        </configuration>
-      </plugin>
-
       <!-- Clean Plugin -->
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>
