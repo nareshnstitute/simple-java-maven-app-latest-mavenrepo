@@ -19,7 +19,7 @@
     <snapshotRepository>
       <id>nexus</id>
       <name>Nexus Snapshots</name>
-      <url>http://44.246.254.11:8081/repository/maven-snapshots/</url>
+      <url>http://18.246.214.170:8081/repository/maven-snapshots//</url>
     </snapshotRepository>
   </distributionManagement>
 
